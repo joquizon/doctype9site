@@ -115,9 +115,13 @@
 @font-face {font-family:futurak;
             src: url(futurakoyu.ttf);}
 
+a{cursor:pointer;
+text-decoration: none;}
+
 #title
     {font-family: futurak;
     font-size: 7vw;
+    color:black;
         display: inline-block;
         line-height: 97%;
     margin-top: -.5%;}
@@ -125,6 +129,10 @@
 #logo{
     width: 6%;
     margin-left: -1%;
+}
+
+#logo2{
+    width: 6%;
 }
 
 #who    {font-family: futuraex;
@@ -145,6 +153,7 @@
     .iconclass{height: 3vw;
         width: 3vw;}
     .navtitles{
+        color:black;
         font-family: futuraex;
         font-size: 1.35vw;
         text-align: center; 
@@ -157,6 +166,8 @@
         border-radius: 100%;
         margin-left: 1vw;    
     }
+
+
 
     #digitalicon{
         background-color: black;
@@ -174,6 +185,13 @@
         margin-bottom: -12%;
     }
 
+#tableofcontents{
 
+    margin-top: 15vh;
+}
 
+.contentlist    {    text-align: center;
+    color:black;
+    font-family: futuraex;
+    font-size: 4vw;}
 
