@@ -131,6 +131,7 @@ text-decoration: none;}
 
 .titleholder{width: 100%;
     position: fixed;
+        z-index: 30000;
     background-color: white;
     -webkit-transition: margin-left .5s;
     transition: margin-left .5s;}
