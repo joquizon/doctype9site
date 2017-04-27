@@ -127,10 +127,10 @@ a{cursor:pointer;
 text-decoration: none;}
 /*laocoon*/
     #lacooncontainer
-        {    float: left;
-        width: 30%;
-        margin-left: 35%;
-        margin-top: 8%;}
+    {    float: left;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 8%;}
     #lacoon{width:100%;}
 
     #boxoverlay{position:absolute;}
@@ -760,6 +760,33 @@ text-decoration: none;}
             
     
 
+/*pinkskull*/
+    #skulloverlays{float: left;
+    width: 66%;
+    position:absolute;}
+
+    #skullcontainer{float: left;
+    width: 66%;
+    margin-left: 17%;
+    margin-top: 15%;
+    margin-bottom: 15%;}
+
+    #pinkskull{width:100%;}
+
+    #arrows{
+        position:absolute;
+    width: 100%;
+}
+
+    #wiremask{
+        position:absolute;
+    width: 100%;
+}
+
+    #teeth{opacity:.5;
+        position:absolute;
+    width: 100%;
+}
 
 
 
@@ -772,8 +799,15 @@ text-decoration: none;}
     width: 50%;
     height:12%;}
 
+        #skulloverlays{ 
+    width: 50%;}
+
         #lacooncontainer{
                 width: 50%;}
+                        #skullcontainer{
+                width: 50%;}
+    }
+
     }
 
 
