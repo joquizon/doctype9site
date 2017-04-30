@@ -194,4 +194,35 @@ text-decoration: none;}
     color:black;
     font-family: futuraex;
     font-size: 4vw;}
+#emailformcontain
+{
+    display: none;
+    position: fixed;
+    width: 25%;
+    margin-left:0%;
+}
 
+.contactentry{height: 1.35vw;
+    margin-left: 2%;
+    margin-top: 1%;
+    color: white;
+    font-family: arial;
+    font-size: 1.15vw;
+    border: none;
+    background-color: black;}
+
+#message{    width: 100%;
+    height: 100px;}
+
+#submit{    background-color:#FF7100;
+    border: none;
+    display: block;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-family: arial;}
+
+#resultmessage{font-size: 1.15vw;
+    margin-left: 1%;
+    color: red;
+    font-family: futuraex;
+    display: none;}     
