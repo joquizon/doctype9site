@@ -1,42 +1,47 @@
 <?php
-
-	print"yo chico php up dawg";
-
-if ($_POST["submit"]) {
-
-	 	 if (!$_POST['name']) {
-
-			 $x.="Please enter your name";}
-
-
-			
-	 	 if (!$_POST['message']) {
-
-			 $x.="<br />Please enter a message";
-
-	 	 }	
-	 	 	if (!$_POST['email']) {
-
-			 $x.="<br />Please enter your email address";
-
-	 	 }	
-
-	 	 if ($_POST['email']!="" AND !filter_var($_POST['email'],
-FILTER_VALIDATE_EMAIL)) {
- 	 	 	
- 	 	 $x.="<br />Please enter a valid email address";
-
-	 	 }	 
-
- if($x)
- {
- 	$result='<div class="alert alert-danger"><strong>There were error(s)
-in your form:</strong>'.$x.'</div>';
-
-	 	 } 
-	 	}
-	 	
+if ($_POST["submit"]) 
+	{
+		if (!$_POST['name']) 
+		{
+		$error="<br />enter your name";
+		}	
+		if (!$_POST['message']) 
+		{
+		$error.="<br />enter a comment";
+		}
+		if (!$_POST['email']) 
+		{
+			$error.="<br />enter your email address";
+		}
+		if ($_POST['email']!="" AND !filter_var($_POST['email'],
+		FILTER_VALIDATE_EMAIL)) {
+		$error.="<br />enter a valid email address";
+		}
+		if ($error) 
+		{
+		$result='<p><strong>PLEASE:</strong>'.$error.'</p>';
+		} 
+		else 
+		{
+			if (mail("josequizon@hotmail.com", "Comment from website!", "Name: ".
+			$_POST['name']."
+			Email: ".$_POST['email']."
+			Comment: ".$_POST['message'])) 
+				{
+					$result='<p><strong>Thank you!</strong> I\'ll be in touch.</p>';
+				} 
+			else 
+				{
+					$result='<p>Sorry, there was
+					an error sending your message. Please try again later.</p>';
+				}
+		}	
+	}
 ?>
+
+
+<!-- write jquery for submit button clearing fields when  name field when submit butt click -->
+	 	
 
 
 <!doctype html>
@@ -44,6 +49,8 @@ in your form:</strong>'.$x.'</div>';
 	<head>
 		<link rel="stylesheet" href="dtype9.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="dtype.js"></script>
 	</head>
 		<body>
 			<div id="titleholder">
@@ -80,24 +87,25 @@ in your form:</strong>'.$x.'</div>';
 				</p>
 
 				<div id="email">
-					<p>
+					<p id="emailactivate">
 						email activate
 					</p>
-				</div>
 
-				<div id="emailformcontain">
-					<?php 
-					echo $result; 
-					?>
+					<div id="resultmessage">
+						<?php 
+						echo $result; 
+						?>
+					</div>
+					<div id="emailformcontain">
 
-					<form method="post">
-						<input type="text" name="name" placeholder="your Name">
-						<input type="text" name="message" placeholder="Your Message">
-						<input type="text" name="email" placeholder="Your email">
-						<input type="submit" name="submit" value="Send Message">
-				</form>
-
-
+						<form id="emailform"method="post">
+							<input class="contactentry" type="text" name="name" placeholder="Name">
+							<<textarea rows="4" cols="50"class="contactentry" id="message" type="text" name="message" placeholder="Talk to Me">
+						</textarea>
+							<input class="contactentry" type="text" name="email" placeholder="Your email">
+							<input type="submit" id="submit" name="submit" value=">>>>">
+						</form>
+					</div>
 				</div>
 			</div>		
 			<!-- navigation -->
