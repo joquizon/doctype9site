@@ -7,7 +7,7 @@ $(document).ready(function()
 		});
 
 	// code for laocoon
-			setInterval(function clocker()
+		setInterval(function clocker()
 		{
 			var month = [
 			  "January",
@@ -39,9 +39,29 @@ $(document).ready(function()
 			var browser = "BROWSER// "+ navigator.appName + " "+navigator.appCodeName;
 			var timelist = td +" "+" "+ty+" "+" "+ th +" ' "+ tmt +" '' "+ ts+ " ''' "+n+"*";
 			$(".dater").html(timelist);
-
-
 		},1);
 
+
+	//contact form code 
+		$("#emailactivate").click(function()
+		{
+			$("#emailformcontain").show();
+		});		
+
+		$('#emailform').on('keyup keypress', function(e) 
+		{
+		  var keyCode = e.keyCode || e.which;
+		  if (keyCode === 13) 
+			  { 
+			    e.preventDefault();
+			    return false;
+			  }
+		});
+
+
+		$("#pinkskull").click(function()
+			{
+				$("#skullpattern").attr("id","skullpattern2");
+			});
 
 });
