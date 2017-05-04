@@ -62,7 +62,11 @@ $(document).ready(function()
 		$("#skullbutt1").click(function()
 			{
 				$(".skullpattern").attr("class","skullpattern2");
-				$("#basemask").attr("id","basemask2");	
+				$("#basemask").attr("id","basemask2");
+				$("#blinker").attr("id","blinker0");
+				$(".skullpattern3").attr("class","skullpattern2");
+				$("#basemask3").attr("id","basemask2");	
+								$("#wiremask2").attr("id","wiremask");
 				$("#mographbox2").attr("id","mographbox2a");
 				$("#mographbox3").attr("id","mographbox3a");
 				$("#mographbox3b").attr("id","mographbox3a");
@@ -82,8 +86,12 @@ $(document).ready(function()
 
 		$("#skullbutt2").click(function()
 			{
-				$(".skullpattern").attr("class","skullpattern2");
-				$("#basemask").attr("id","basemask2");	
+				$(".skullpattern2").attr("class","skullpattern");
+				$("#basemask2").attr("id","basemask");	
+				$("#wiremask2").attr("id","wiremask");
+				$("#blinker0").attr("id","blinker");
+				$(".skullpattern3").attr("class","skullpattern");
+				$("#basemask3").attr("id","basemask");
 				$("#mographbox2a").attr("id","mographbox2");
 				$("#mographbox3a").attr("id","mographbox3");
 				$("#mographbox2b").attr("id","mographbox2");
@@ -92,8 +100,8 @@ $(document).ready(function()
 				$("#morect3a").attr("id","morect3");
 				$("#morect2b").attr("id","morect2");
 				$("#morect3b").attr("id","morect3");
-				$("#teeth").fadeIn(1000);	
-				$("#positnumber").text("02");
+				$("#teeth").fadeOut(1000);	
+				$("#positnumber").text("01");
 				$(".skullbuttonA1").attr("class","skullbuttonA");
 				$(".skullbuttonA2").attr("class","skullbuttonA");	
 				$(".skullbuttonB1").attr("class","skullbuttonB2");
@@ -106,14 +114,15 @@ $(document).ready(function()
 
 				$("#skullbutt3").click(function()
 			{
-				$(".skullpattern").attr("class","skullpattern2");
-				$("#basemask").attr("id","basemask2");	
+				$(".skullpattern2").attr("class","skullpattern3");
+				$("#basemask2").attr("id","basemask3");	
+				$("#wiremask").attr("id","wiremask2");
 				$("#mographbox2").attr("id","mographbox2a");
 				$("#mographbox3a").attr("id","mographbox3b");
 				$("#morect2").attr("id","morect2a");
 				$("#morect3a").attr("id","morect3b");
 				$("#teeth").fadeIn(1000);	
-				$("#positnumber").text("02");
+				$("#positnumber").text("03");
 				$(".skullbuttonA1").attr("class","skullbuttonA2");	
 				$(this).hide();	
 				$("#skullbutt1").show();
