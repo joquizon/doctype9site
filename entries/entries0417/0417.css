@@ -122,7 +122,7 @@
             src: url(nintendo.ttf);}
 
 
-
+body{overflow-x: hidden;}
 a{cursor:pointer;
     color: #F17FFF;
 text-decoration: none;}
@@ -770,7 +770,8 @@ text-decoration: none;}
     width: 66%;
     margin-left: 17%;
     margin-top: 15%;
-    margin-bottom: 15%;}
+    margin-bottom: 15%;+
+    overflow: hidden;}
 
     #pinkskull{width:100%;}
 
@@ -782,9 +783,11 @@ text-decoration: none;}
 
     #bluebars{  position:absolute;
     width: 100%;
+    display: none;
     /*pointer-events:none;*/}
 
-        #bluebar08A{width:90%;}
+    .blueB{fill:black;}
+
 
 
     #wiremask{
@@ -817,6 +820,10 @@ text-decoration: none;}
     .skullpattern    {position: absolute;
         width: 100%;
         z-index: 62;
+        margin-left: 0%;
+        margin-top: 0%;
+        top:0%;
+        left:0%;
         pointer-events:none;
         -webkit-transition: margin-left 1s, margin-top 1s;
     transition: margin-left 1s, margin-top 1s;}
@@ -845,10 +852,12 @@ text-decoration: none;}
     #basemask{        pointer-events:none;
         position: absolute;
         margin-top: .25%;
+        top:.25%;
     z-index: 60;
-    left: -.5%;
-        -webkit-transition:left 1s,margin-top 1s;
-    transition:left 1s,margin-top 1s;}
+        width:100%;
+    left: -0.5%;
+        -webkit-transition: left 1s,margin-top 1s;
+    transition: left 1s,margin-top 1s;}
 
         #basemask2{        pointer-events:none;
                     width: 100%;
