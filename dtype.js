@@ -82,6 +82,7 @@ $(document).ready(function()
 				$(".skullbuttonC1").attr("class","skullbuttonC2");	
 				$(this).hide();
 				$("#skullbutt3").show();	
+				$("#bluebars").hide();
 			});
 
 		$("#skullbutt2").click(function()
@@ -108,7 +109,7 @@ $(document).ready(function()
 				$(".skullbuttonC1").attr("class","skullbuttonC");
 				$(".skullbuttonC2").attr("class","skullbuttonC");
 				$("#skullbutt1").show();
-
+				$("#bluebars").hide();
 
 			});
 
@@ -121,11 +122,13 @@ $(document).ready(function()
 				$("#mographbox3a").attr("id","mographbox3b");
 				$("#morect2").attr("id","morect2a");
 				$("#morect3a").attr("id","morect3b");
-				$("#teeth").fadeIn(1000);	
+				$("#teeth").fadeOut(1000);		
 				$("#positnumber").text("03");
 				$(".skullbuttonA1").attr("class","skullbuttonA2");	
 				$(this).hide();	
 				$("#skullbutt1").show();
+				$("#bluebars").show();
+
 			});
 
 });
