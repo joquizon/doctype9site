@@ -1,0 +1,297 @@
+#bluebar01{-webkit-animation-name:bluebarProgression; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+            animation-name: bluebarProgression;
+            animation-duration: 3s;
+            animation-iteration-count:infinite;}
+@-webkit-keyframes bluebarProgression{
+ 0%{width:0px;}
+ 4%{width:28.525px;}
+ 100%{width:28.525px;}}
+
+ @keyframes bluebarProgression{
+ 0%{width:0px;}
+ 4%{width:28.525px;}
+ 100%{width:28.525px;}}            
+
+            
+
+#bluebar02{-webkit-animation-name:bluebarProgressionB; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+            animation-name: bluebarProgressionB;
+            animation-duration: 3s;
+            animation-iteration-count:infinite;}
+@-webkit-keyframes bluebarProgressionB{
+ 0%{width:0px;}
+ 5%{width:0px;}
+ 9%{width:33.525px;}
+ 100%{width:33.525px;}}
+
+@keyframes bluebarProgressionB{
+ 0%{width:0px;}
+ 5%{width:0px;}
+ 9%{width:33.525px;}
+ 100%{width:33.525px;}}            
+
+#bluebar03{-webkit-animation-name:bluebarProgressionC; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+            animation-name: bluebarProgressionC;
+            animation-duration: 3s;
+            animation-iteration-count:infinite;}
+@-webkit-keyframes bluebarProgressionC{
+ 0%{width:0px;}
+ 10%{width:0px;}
+ 13%{width:38.625px;}
+ 100%{width:38.625px;}}
+@keyframes bluebarProgressionC{
+ 0%{width:0px;}
+ 10%{width:0px;}
+ 13%{width:38.625px;}
+ 100%{width:38.625px;}}            
+
+
+#bluebar04{-webkit-animation-name:bluebarProgressionD; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+            animation-name: bluebarProgressionD;
+            animation-duration: 3s;
+            animation-iteration-count:infinite;}
+@-webkit-keyframes bluebarProgressionD{
+ 0%{width:0px;}
+ 14%{width:0px;}
+ 17%{width:38.625px;}
+ 100%{width:38.625px;}}
+@keyframes bluebarProgressionD{
+ 0%{width:0px;}
+ 14%{width:0px;}
+ 17%{width:38.625px;}
+ 100%{width:38.625px;}}
+
+#bluebar05{-webkit-animation-name:bluebarProgressionE; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+            animation-name: bluebarProgressionE;
+            animation-duration: 3s;
+            animation-iteration-count:infinite;}
+@-webkit-keyframes bluebarProgressionE{
+ 0%{width:0px;}
+ 18%{width:0px;}
+ 21%{width:28.025px;}
+ 100%{width:28.025px;}}
+@keyframes bluebarProgressionE{
+ 0%{width:0px;}
+ 18%{width:0px;}
+ 21%{width:28.025px;}
+ 100%{width:28.025px;}}
+
+#bluebar06{-webkit-animation-name:bluebarProgressionF; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+            animation-name: bluebarProgressionF;
+            animation-duration: 3s;
+            animation-iteration-count:infinite;}
+@-webkit-keyframes bluebarProgressionF{ 
+ 0%{width:0px;}
+ 22%{width:0px;}
+ 25%{width:28.025px;}
+ 100%{width:28.025px;}}
+ @keyframes bluebarProgressionF{ 
+ 0%{width:0px;}
+ 22%{width:0px;}
+ 25%{width:28.025px;}
+ 100%{width:28.025px;}}
+
+#bluebar07{-webkit-animation-name:bluebarProgressionG; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+            animation-name: bluebarProgressionG;
+            animation-duration: 3s;
+            animation-iteration-count:infinite;}
+@-webkit-keyframes bluebarProgressionG{ 
+ 0%{width:0px;}
+ 26%{width:0px;}
+ 29%{width:33.802px;}
+ 100%{width:33.802px;}}
+@keyframes bluebarProgressionG{ 
+ 0%{width:0px;}
+ 26%{width:0px;}
+ 29%{width:33.802px;}
+ 100%{width:33.802px;}}
+#bluebar08{-webkit-animation-name:bluebarProgressionH; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+            animation-name: bluebarProgressionH;
+            animation-duration: 3s;
+            animation-iteration-count:infinite;}
+@-webkit-keyframes bluebarProgressionH{ 
+ 0%{width:0px;}
+ 30%{width:0px;}
+ 33%{width:39.413px;}
+ 100%{width:39.413px;}}
+@keyframes bluebarProgressionH{ 
+ 0%{width:0px;}
+ 30%{width:0px;}
+ 33%{width:39.413px;}
+ 100%{width:39.413px;}}
+
+#bluebar09{-webkit-animation-name:bluebarProgressionI; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+            animation-name: bluebarProgressionI;
+            animation-duration: 3s;
+            animation-iteration-count:infinite;}
+@-webkit-keyframes bluebarProgressionI{ 
+ 0%{width:0px;}
+ 34%{width:0px;}
+ 37%{width:45.594px;}
+ 100%{width:45.594px;}}
+ @-webkit-keyframes bluebarProgressionI{ 
+ 0%{width:0px;}
+ 34%{width:0px;}
+ 37%{width:45.594px;}
+ 100%{width:45.594px;}}
+
+#bluebar10{-webkit-animation-name:bluebarProgressionJ; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+            animation-name: bluebarProgressionJ;
+            animation-duration: 3s;
+            animation-iteration-count:infinite;}
+@-webkit-keyframes bluebarProgressionJ{ 
+ 0%{width:0px;}
+ 38%{width:0px;}
+ 41%{width:45.594px;}
+ 100%{width:45.594px;}}
+@keyframes bluebarProgressionJ{ 
+ 0%{width:0px;}
+ 38%{width:0px;}
+ 41%{width:45.594px;}
+ 100%{width:45.594px;}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@-webkit-keyframes bluebarProgression{ 
+ 0%{width:0px;}
+ 42%{width:0px;}
+ 45%{width:36.302px;}
+ 100%{width:36.302px;}}
+
+@-webkit-keyframes bluebarProgression{ 
+ 0%{width:0px;}
+ 46%{width:0px;}
+ 49%{width:33.052px;}
+ 100%{width:33.052px;}}
+
+@-webkit-keyframes bluebarProgression{ 
+ 0%{width:0px;}
+ 50%{width:0px;}
+ 52%{width:39.191px;}
+ 100%{width:39.191px;}}
+
+@-webkit-keyframes bluebarProgression{ 
+ 0%{width:0px;}
+ 53%{width:0px;}
+ 55%{width:46.073px;}
+ 100%{width:46.073px;}}
+
+@-webkit-keyframes bluebarProgression{ 
+ 0%{width:0px;}
+ 56%{width:0px;}
+ 59%{width:50.2px;}
+ 100%{width:50.2px;}}
+
+@-webkit-keyframes bluebarProgression{ 
+ 0%{width:0px;}
+ 60%{width:0px;}
+ 62%{width:47.082px;}
+ 100%{width:47.082px;}}
+
+@-webkit-keyframes bluebarProgression{ 
+ 0%{width:0px;}
+ 63%{width:0px;}
+ 66%{width:60.624px;}
+ 100%{width:60.624px;}}
+
+@-webkit-keyframes bluebarProgression{ 
+ 0%{width:0px;}
+ 67%{width:0px;}
+ 70%{width:87.749px;}
+ 100%{width:87.749px;}}
+
+@-webkit-keyframes bluebarProgression{ 
+ 0%{width:0px;}
+ 71%{width:0px;}
+ 73%{width:98.416px;}
+ 100%{width:98.416px;}}
+
+@-webkit-keyframes bluebarProgression{ 
+ 0%{width:0px;}
+ 74%{width:0px;}
+ 77%{width:102.749px;}
+ 100%{width:102.749px;}}
+
+@-webkit-keyframes bluebarProgression{ 
+ 0%{width:0px;}
+ 78%{width:0px;}
+ 80%{width:71.582px;}
+ 100%{width:71.582px;}}
+
+@-webkit-keyframes bluebarProgression{ 
+ 0%{width:0px;}
+ 81%{width:0px;}
+ 84%{width:167.874px;}
+ 100%{width:167.874px;}}
+
+@-webkit-keyframes bluebarProgression{ 
+ 0%{width:0px;}
+ 85%{width:0px;}
+ 87%{width:165.405px;}
+ 100%{width:165.405px;}}
+
+@-webkit-keyframes bluebarProgression{ 
+ 0%{width:0px;}
+ 88%{width:0px;}
+ 90%{width:161.322px;}
+ 100%{width:161.322px;}}
+
+@-webkit-keyframes bluebarProgression{ 
+ 0%{width:0px;}
+ 91%{width:0px;}
+ 93%{width:161.778px;}
+ 100%{width:161.778px;}}
+
+@-webkit-keyframes bluebarProgression{ 
+ 0%{width:0px;}
+ 94%{width:0px;}
+ 96%{width:158.322px;}
+ 100%{width:158.322px;}}
+
+@-webkit-keyframes bluebarProgression{ 
+ 0%{width:0px;}
+ 97%{width:0px;}
+ 99%{width:142.156px;}
+ 100%{width:142.156px;}}
+
+@-webkit-keyframes bluebarProgression{ 
+ 0%{width:0px;}
+ 98%{width:0px;}
+ 100%{width:104.174px;}}*/
