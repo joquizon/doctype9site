@@ -39,6 +39,7 @@ $(document).ready(function()
 			var browser = "BROWSER// "+ navigator.appName + " "+navigator.appCodeName;
 			var timelist = td +" "+" "+ty+" "+" "+ th +" ' "+ tmt +" '' "+ ts+ " ''' "+n+"*";
 			$(".dater").html(timelist);
+			$("#skulltime").html("."+n)
 		},1);
 
 
@@ -83,6 +84,9 @@ $(document).ready(function()
 				$(this).hide();
 				$("#skullbutt3").show();	
 				$("#bluebars").hide();
+				$("#skulltime").hide();	
+				$("#skullprogbar").hide();	
+				$("#skullwarning").hide();	
 			});
 
 		$("#skullbutt2").click(function()
@@ -110,7 +114,9 @@ $(document).ready(function()
 				$(".skullbuttonC2").attr("class","skullbuttonC");
 				$("#skullbutt1").show();
 				$("#bluebars").hide();
-
+				$("#skulltime").hide();
+				$("#skullprogbar").hide();
+				$("#skullwarning").hide();
 			});
 
 				$("#skullbutt3").click(function()
@@ -128,7 +134,9 @@ $(document).ready(function()
 				$(this).hide();	
 				$("#skullbutt1").show();
 				$("#bluebars").show();
-
+				$("#skullprogbar").show();
+				$("#skulltime").show();
+				$("#skullwarning").show();
 			});
 
 });
