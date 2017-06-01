@@ -6,6 +6,40 @@ $(document).ready(function()
 			$(this).toggleClass("solobuttA");
 		});
 
+
+	// homepage navigation
+
+		$(".iconclass").click(function()
+			{
+
+				$("#iconholder").attr("id","iconholderB");								
+				$(".subiconholder").attr("class","subiconholderB");
+				$(".iconclass").attr("class","iconclassB");
+				$(".navtitles").hide();
+				$("#handicon").attr("id","handiconB");	
+			});
+
+		$("#motionicon").click(function()
+			{
+				$(".tableclass").hide();
+				$("#MOTIONtableofcontents").show();
+				$("#title").text("MOT'IN");
+			});
+
+		$("#codeicon").click(function()
+			{
+				$(".tableclass").hide();
+				$("#CODEtableofcontents").show();
+				$("#title").text("C'DE");
+			});
+
+		$("#handicon").click(function()
+			{
+				$(".tableclass").hide();
+				$("#ENTRIEStableofcontents").show();
+				$("#title").text("ENTR'S");
+			});
+
 	// code for laocoon
 		setInterval(function clocker()
 		{
