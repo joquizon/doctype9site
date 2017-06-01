@@ -128,7 +128,7 @@ text-decoration: none;}
 
 #logo{
     width: 6%;
-    margin-left: -1%;
+    margin-left: 0%;
 }
 
 #logo2{
@@ -141,17 +141,37 @@ text-decoration: none;}
 
 #iconholder{
     width: 40vw;
-    margin-left: 30vw;
+    margin-left: 35vw;
     margin-top: 12%;
+    }
+
+    #iconholderB{
+    position: fixed;
+    width: 40vw;
+     margin-left:0%; 
+    /* margin-top: 12%; */
+    bottom: 0%;
     }
 
     .subiconholder{
         float: left;
         width: 5vw;
-        margin:2.5vw;
+        margin:1.5vw;
     }
+
+    .subiconholderB {
+    float: left;
+    /* width: 0.01vw; */
+    margin: .5vw;}
+
+
     .iconclass{height: 3vw;
         width: 3vw;}
+
+    .iconclassB {
+    height: 1.25vw;
+    width: 1.25vw;}
+
     .navtitles{
         color:black;
         font-family: futuraex;
@@ -185,9 +205,23 @@ text-decoration: none;}
         margin-bottom: -12%;
     }
 
-#tableofcontents{
+    #handiconB {
+    width: 1.5vw;
+    height: 2vw;}
+
+#MOTIONtableofcontents{
 
     margin-top: 15vh;
+    display: none;
+}
+#CODEtableofcontents{
+
+    margin-top: 15vh;
+    display: none;
+}
+#ENTRIEStableofcontents{
+    margin-top: 15vh;
+    display: none;
 }
 
 .contentlist    {    text-align: center;
