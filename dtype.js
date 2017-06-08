@@ -9,6 +9,18 @@ $(document).ready(function()
 
 	// homepage navigation
 
+		$("#title").click(function()
+			{
+				$("#iconholderB").attr("id","iconholder");								
+				$(".subiconholderB").attr("class","subiconholder");
+				$(".iconclassB").attr("class","iconclass");
+				$(".navtitles").show();
+				$("#handiconB").attr("id","handicon");	
+				$("#MOTIONtableofcontents").hide();
+				$("#CODEtableofcontents").hide();
+				$("#ENTRIEStableofcontents").hide();
+			});
+
 		$(".iconclass").click(function()
 			{
 
