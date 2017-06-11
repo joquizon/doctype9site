@@ -142,7 +142,7 @@ text-decoration: none;}
 
 #iconholder{
     width: 40vw;
-    margin-left: 35vw;
+    margin-left: 30vw;
         position: fixed;
     bottom: 50%;
     -webkit-transition: margin-left .5s, bottom .5s, margin-top .5s; 
@@ -154,7 +154,7 @@ text-decoration: none;}
     width: 40vw;
      margin-left:0%; 
     /* margin-top: 12%; */
-    bottom: 0%;
+    bottom: 4%;
         -webkit-transition: margin-left .5s, bottom .5s, margin-top .5s; 
     transition: margin-left .5s, bottom .5s, margin-top .5s; 
     }
@@ -173,12 +173,16 @@ text-decoration: none;}
 
     .iconclass{height: 3vw;
         width: 3vw;
-        cursor:pointer;}
+        cursor:pointer;
+    -webkit-transition: width .1s, height .1s; 
+    transition: width .1s, height .1s; }
 
     .iconclassB {
     height: 1.25vw;
     width: 1.25vw;
-cursor:pointer;}
+cursor:pointer;
+    -webkit-transition: width .1s, height .1s; 
+    transition: width .1s, height .1s; }
 
     .navtitles{
         color:black;
@@ -190,8 +194,7 @@ cursor:pointer;}
 
 
     #motionicon{
-        background-color: black;
-        border-radius: 100%;
+
         margin-left: 1vw;    
     }
 
@@ -204,18 +207,15 @@ cursor:pointer;}
 
     #codeicon{
         margin-left: 1vw;
-        margin-bottom: -6%;
     }
 
     #handicon{
-        width: .6vw;
-        margin-left: 2.2vw;
-        margin-bottom: -12%;
+    margin-left: 0.75vw;
     }
 
-    #handiconB {
-    width: 1.5vw;
-    height: 2vw;}
+    #allicon{    margin-left: 1vw;}
+
+.tableclass{display: none;}
 
 #MOTIONtableofcontents{
 

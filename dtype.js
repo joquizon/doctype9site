@@ -19,6 +19,8 @@ $(document).ready(function()
 				$("#MOTIONtableofcontents").hide();
 				$("#CODEtableofcontents").hide();
 				$("#ENTRIEStableofcontents").hide();
+				$("#ALLtableofcontents").hide();				
+				$("#title").text("DOC'T9");
 			});
 
 		$(".iconclass").click(function()
@@ -49,8 +51,15 @@ $(document).ready(function()
 			{
 				$(".tableclass").hide();
 				$("#ENTRIEStableofcontents").show();
-				$("#title").text("ENTR'S");
+				$("#title").text("EXPRM'T");
 			});
+
+		$("#allicon").click(function()
+		{
+			$(".tableclass").hide();
+			$("#ALLtableofcontents").show();
+			$("#title").text("ALL");
+		});
 
 	// code for laocoon
 		setInterval(function clocker()
