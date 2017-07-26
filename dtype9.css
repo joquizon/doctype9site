@@ -124,7 +124,8 @@ text-decoration: none;}
     color:black;
         display: inline-block;
         line-height: 97%;
-    margin-top: -.5%;}
+    margin-top: -.5%;
+    cursor: pointer}
 
 #logo{
     width: 6%;
@@ -141,8 +142,11 @@ text-decoration: none;}
 
 #iconholder{
     width: 40vw;
-    margin-left: 35vw;
-    margin-top: 12%;
+    margin-left: 30vw;
+        position: fixed;
+    bottom: 50%;
+    -webkit-transition: margin-left .5s, bottom .5s, margin-top .5s; 
+    transition: margin-left .5s, bottom .5s, margin-top .5s; 
     }
 
     #iconholderB{
@@ -150,7 +154,9 @@ text-decoration: none;}
     width: 40vw;
      margin-left:0%; 
     /* margin-top: 12%; */
-    bottom: 0%;
+    bottom: 4%;
+        -webkit-transition: margin-left .5s, bottom .5s, margin-top .5s; 
+    transition: margin-left .5s, bottom .5s, margin-top .5s; 
     }
 
     .subiconholder{
@@ -166,11 +172,17 @@ text-decoration: none;}
 
 
     .iconclass{height: 3vw;
-        width: 3vw;}
+        width: 3vw;
+        cursor:pointer;
+    -webkit-transition: width .1s, height .1s; 
+    transition: width .1s, height .1s; }
 
     .iconclassB {
     height: 1.25vw;
-    width: 1.25vw;}
+    width: 1.25vw;
+cursor:pointer;
+    -webkit-transition: width .1s, height .1s; 
+    transition: width .1s, height .1s; }
 
     .navtitles{
         color:black;
@@ -182,8 +194,7 @@ text-decoration: none;}
 
 
     #motionicon{
-        background-color: black;
-        border-radius: 100%;
+
         margin-left: 1vw;    
     }
 
@@ -196,18 +207,15 @@ text-decoration: none;}
 
     #codeicon{
         margin-left: 1vw;
-        margin-bottom: -6%;
     }
 
     #handicon{
-        width: .6vw;
-        margin-left: 2.2vw;
-        margin-bottom: -12%;
+    margin-left: 0.75vw;
     }
 
-    #handiconB {
-    width: 1.5vw;
-    height: 2vw;}
+    #allicon{    margin-left: 1vw;}
+
+.tableclass{display: none;}
 
 #MOTIONtableofcontents{
 
@@ -224,10 +232,13 @@ text-decoration: none;}
     display: none;
 }
 
+
+.listholder{margin-top: 10%}
+
 .contentlist    {    text-align: center;
     color:black;
     font-family: futuraex;
-    font-size: 4vw;}
+    font-size: 2vw;}
 #emailformcontain
 {
     display: none;
