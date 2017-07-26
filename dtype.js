@@ -3,11 +3,26 @@ $(document).ready(function()
 	$(".solobutt").click(function(event)
 		{
 			$(".titleholder").toggleClass("titleholderA");
+			$(".titleholder2").toggleClass("titleholder2B")
 			$(this).toggleClass("solobuttA");
 		});
 
 
 	// homepage navigation
+
+		$("#title").click(function()
+			{
+				$("#iconholderB").attr("id","iconholder");								
+				$(".subiconholderB").attr("class","subiconholder");
+				$(".iconclassB").attr("class","iconclass");
+				$(".navtitles").show();
+				$("#handiconB").attr("id","handicon");	
+				$("#MOTIONtableofcontents").hide();
+				$("#CODEtableofcontents").hide();
+				$("#ENTRIEStableofcontents").hide();
+				$("#ALLtableofcontents").hide();				
+				$("#title").text("DOC'T 9");
+			});
 
 		$(".iconclass").click(function()
 			{
@@ -37,8 +52,22 @@ $(document).ready(function()
 			{
 				$(".tableclass").hide();
 				$("#ENTRIEStableofcontents").show();
-				$("#title").text("ENTR'S");
+				$("#title").text("EXPRM'T");
 			});
+
+		$("#allicon").click(function()
+		{
+			$(".tableclass").hide();
+			$("#ALLtableofcontents").show();
+			$("#title").text("ALL");
+		});
+
+		$("#digitalicon").click(function()
+		{
+			$(".tableclass").hide();
+			$("#DIGITALtableofcontents").show();
+			$("#title").text("DIGT'L");
+		});		
 
 	// code for laocoon
 		setInterval(function clocker()
@@ -98,6 +127,12 @@ $(document).ready(function()
 			{
 				$(".skullpattern").attr("class","skullpattern2");
 				$("#basemask").attr("id","basemask2");
+				$("#wiremask").attr("id","wiremask1");
+				$("#wiremask2").attr("id","wiremask1");				
+				$("#pinkskull").attr("id","pinkskullB");
+				$("#pinkskullC").attr("id","pinkskullB");
+				$("#arrowsC").attr("id","arrowsB");
+				$("#arrows").attr("id","arrowsB");				
 				$("#blinker").attr("id","blinker0");
 				$(".skullpattern3").attr("class","skullpattern2");
 				$("#basemask3").attr("id","basemask2");	
@@ -128,6 +163,11 @@ $(document).ready(function()
 				$(".skullpattern2").attr("class","skullpattern");
 				$("#basemask2").attr("id","basemask");	
 				$("#wiremask2").attr("id","wiremask");
+				$("#wiremask1").attr("id","wiremask");
+				$("#pinkskullC").attr("id","pinkskull");
+				$("#arrowsC").attr("id","arrows");	
+				$("#pinkskullB").attr("id","pinkskull");
+				$("#arrowsB").attr("id","arrows");					
 				$("#blinker0").attr("id","blinker");
 				$(".skullpattern3").attr("class","skullpattern");
 				$("#basemask3").attr("id","basemask");
@@ -157,7 +197,9 @@ $(document).ready(function()
 			{
 				$(".skullpattern2").attr("class","skullpattern3");
 				$("#basemask2").attr("id","basemask3");	
-				$("#wiremask").attr("id","wiremask2");
+				$("#pinkskullB").attr("id","pinkskullC");
+				$("#arrowsB").attr("id","arrowsC");					
+				$("#wiremask1").attr("id","wiremask2");
 				$("#mographbox2").attr("id","mographbox2a");
 				$("#mographbox3a").attr("id","mographbox3b");
 				$("#morect2").attr("id","morect2a");
@@ -171,6 +213,14 @@ $(document).ready(function()
 				$("#skullprogbar").show();
 				$("#skulltime").show();
 				$("#skullwarning").show();
+			});
+
+	// scaler for digital page
+
+		$(".imageholder").click(function()
+			{
+				$(this).toggleClass("imageholderL");
+
 			});
 
 });
