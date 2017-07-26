@@ -767,25 +767,53 @@ text-decoration: none;}
 
     #skullcrosshairs {
     position: absolute;
-    margin-top: -3%;
     pointer-events: none;
     }
 
-    #skullcontainer{float: left;
+    #skullcontainer{    float: left;
     width: 66%;
     margin-left: 17%;
     margin-top: 15%;
-    margin-bottom: 15%;+
+    margin-bottom: 15%;
+    background-color: #D3005D;
     overflow: hidden;}
 
-    #pinkskull{width:100%;}
+    #pinkskull{width:100%;
+            -webkit-transition: margin-left 1s, margin-top 1s;
+    transition: margin-left 1s, margin-top 1s;}
+    #pinkskullB{width:100%;
+        margin-left: -14%;
+            -webkit-transition: margin-left 1s, margin-top 1s;
+    transition: margin-left 1s, margin-top 1s;}    
+    #pinkskullC{width:100%;
+        margin-left: -17%;
+            -webkit-transition: margin-left 1s, margin-top 1s;
+    transition: margin-left 1s, margin-top 1s;}        
 
     #arrows{
         position:absolute;
     width: 100%;
     pointer-events:none;
+    margin-left: 14%;
+                -webkit-transition: margin-left 1s, margin-top 1s;
+    transition: margin-left 1s, margin-top 1s;
+    }
+    #arrowsB{
+        position:absolute;
+    width: 100%;
+    pointer-events:none;
+                -webkit-transition: margin-left 1s, margin-top 1s;
+    transition: margin-left 1s, margin-top 1s;
     }
 
+    #arrowsC{
+        position:absolute;
+    width: 100%;
+        margin-left: -3%;
+    pointer-events:none;
+                -webkit-transition: margin-left 1s, margin-top 1s;
+    transition: margin-left 1s, margin-top 1s;
+    }
     #skullwarning{
     margin-top: 0.5%;
     position: absolute;
@@ -929,6 +957,7 @@ text-decoration: none;}
     #bluebars{  position:absolute;
     width: 100%;
     display: none;
+    margin-left: -3%;
     pointer-events:none;}
 
     .blueB{fill:black;}
@@ -936,10 +965,22 @@ text-decoration: none;}
 
 
     #wiremask{
+        opacity:.75;
         position:absolute;
     width: 100%;
-        left: 0%;
+        left: 14%;
     margin-top:0%;
+    pointer-events:none;
+        -webkit-transition:opacity 1s, left 1s, margin-top 1s;
+    transition:opacity 1s, left 1s, margin-top 1s;
+    }
+
+    #wiremask1{
+        opacity:1;
+        position:absolute;
+    width: 100%;
+        left: 7%;
+    margin-top:2%;
     pointer-events:none;
         -webkit-transition:opacity 1s, left 1s, margin-top 1s;
     transition:opacity 1s, left 1s, margin-top 1s;
@@ -949,7 +990,6 @@ text-decoration: none;}
     position: absolute;
     width: 100%;
     left: 14%;
-    opacity:.4;
     pointer-events: none;
     margin-top: 4%;
         -webkit-transition:opacity 1s, left 1s, margin-top 1s;
@@ -960,14 +1000,14 @@ text-decoration: none;}
         position:absolute;
     width: 100%;
     pointer-events:none;
-    display:none;
-    }
+    display:none;}
 
     .skullpattern    {position: absolute;
         width: 100%;
         z-index: 62;
         margin-left: 0%;
         margin-top: 0%;
+        margin-left: 14%;
         top:0%;
         left:0%;
         pointer-events:none;
@@ -1001,7 +1041,7 @@ text-decoration: none;}
         top:.25%;
     z-index: 60;
         width:100%;
-    left: -0.5%;
+    left: 13.5%;
         -webkit-transition: left 1s,margin-top 1s;
     transition: left 1s,margin-top 1s;}
 
